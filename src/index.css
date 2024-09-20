@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin:  0 auto;
+    padding: 10px 10px;
+    
+}
+
+.detail{
+    width: 500px;
+    height: 500px;
+    
+} 
+.blockDetail{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: 30px;
+  
+}
+.blockName h1{
+    margin: 30px;
+    color: rgb(20, 20, 244);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+.blockName p{
+ margin: 30px; 
+ color: rgb(13, 35, 101);
+ font-family: sans-serif;
+ font-weight: 600;
+ width: 500px;
+ height: 500px;
+}
+.create{
+    color:rgb(56, 71, 95);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.basket{
+   padding: 10px;
+
+}
